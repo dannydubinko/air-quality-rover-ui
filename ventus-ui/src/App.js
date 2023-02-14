@@ -1,13 +1,14 @@
-import logo from "./logo.png";
 import "./App.css";
+import NavBar from "./pages/NavBar.js";
+import ProductPage from "./pages/ProductPage";
+import BuildingDash from "./Pages/BuildingsDash";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo}></img>
-        <p>Coming soon...</p>
-      </header>
+      <NavBar />
+      <ProductPage />
+      <BuildingDash />
     </div>
   );
 }
