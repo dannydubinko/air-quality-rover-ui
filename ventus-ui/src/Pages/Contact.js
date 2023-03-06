@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 function Contact() {
   return (
     <Form>
+      <p>Suggestions/Concerns? Contact us!</p>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
@@ -12,12 +13,9 @@ function Contact() {
         </Form.Text>
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
+      <Form.Group className="mb-3" controlId="formBasicText">
         <Form.Label>Message</Form.Label>
-        <Form.Control type="password" placeholder="Message" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+        <Form.Control type="text" placeholder="Message" />
       </Form.Group>
       <Button variant="primary" type="submit">
         Submit

@@ -7,6 +7,7 @@ import NoPage from "./Pages/NoPage";
 import Login from "./Pages/Login";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
+import BuildingDash from "./Pages/BuildingsDash";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="product" element={<ProductPage />} />
           <Route path="contact" element={<Contact />} />
           <Route path="login" element={<Login />} />
+          <Route path="dashboard" element={<BuildingDash />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

@@ -6,10 +6,14 @@ import Col from "react-bootstrap/Col";
 function BuildingDash() {
   return (
     <div className="App">
-      <Container fluid>
+      <h1 color="black">Alpha Maps (Public)</h1>
+      <p color="black">
+        The following maps are publicly available and result from the testing of
+        the Ventus Robotics Air Quality Rover.{" "}
+      </p>
+
+      <Container>
         <Row>
-          <MapCard />
-          <br />
           <MapCard />
         </Row>
       </Container>

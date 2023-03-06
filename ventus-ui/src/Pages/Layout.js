@@ -21,4 +21,5 @@ const Centered = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 `;
